@@ -1,5 +1,6 @@
 {
     "name": "openQA Single Instance",
     "postAttachCommand": "echo hello",
+    "runArgs": [ "--entrypoint", "bash" ],
     "image": "yamlio/yaml-play-sandbox:0.1.32"
 }
